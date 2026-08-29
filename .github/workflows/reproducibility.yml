@@ -1,0 +1,44 @@
+name: DTI-R Reproducibility
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  deterministic-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install package and test runner
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e . pytest
+
+      - name: Run deterministic test suite
+        run: pytest -q
+
+      - name: Regenerate deterministic evidence
+        run: python scripts/regenerate_results.py --skip-benchmark
+
+      - name: Run smoke benchmark without timing threshold
+        run: |
+          python benchmark/benchmark_dtir.py \
+            --batches 3 \
+            --repetitions 100 \
+            --transaction-repetitions 30 \
+            --warmup 10 \
+            --output results/ci_smoke_benchmark.json
+
+      - name: Upload evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: dti-r-reference-reproducibility-evidence
+          path: results/
