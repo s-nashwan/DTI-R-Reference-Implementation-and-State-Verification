@@ -1,0 +1,8 @@
+{
+  "device_fresh_nonce_128": 1,
+  "device_hmac_sha256": 9,
+  "device_sha256": 1,
+  "server_fresh_nonce_128": 1,
+  "server_hmac_sha256": 8,
+  "server_sha256": 1
+}

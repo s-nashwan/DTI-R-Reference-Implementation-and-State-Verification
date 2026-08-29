@@ -1,0 +1,10 @@
+DTI-R deterministic validation
+all_pass=true
+sequential_1000_rounds=PASS
+exact_far_retry=PASS
+competing_far_rejected=PASS
+bar_loss_exact_retry_recovery=PASS
+aka_loss_implicit_commit=PASS
+late_aka_rejected_after_implicit_commit=PASS
+retired_dti_replay_rejected=PASS
+restart_boundaries=PASS

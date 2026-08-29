@@ -1,0 +1,8 @@
+{
+  "aka_bytes": 32,
+  "bar_bytes": 32,
+  "device_transmit_bytes": 80,
+  "far_bytes": 48,
+  "server_transmit_bytes": 32,
+  "total_exchange_bytes": 112
+}

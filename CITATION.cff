@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated DTI-R manuscript and the archived software release. Human author metadata will be finalized before public release."
+title: "DTI-R Reference Implementation and State Verification"
+type: software
+version: "0.1.0-development"
+date-released: 2026-08-30
+authors:
+  - name: "DTI-R contributors"
+repository-code: "https://github.com/s-nashwan/DTI-R-Reference-Implementation-and-State-Verification"
+license: MIT

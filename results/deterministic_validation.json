@@ -1,0 +1,32 @@
+{
+  "all_pass": true,
+  "scenarios": {
+    "aka_loss_implicit_commit": {
+      "pass": true
+    },
+    "bar_loss_exact_retry_recovery": {
+      "pass": true
+    },
+    "competing_far_rejected": {
+      "pass": true
+    },
+    "exact_far_retry": {
+      "pass": true
+    },
+    "late_aka_rejected_after_implicit_commit": {
+      "pass": true
+    },
+    "restart_boundaries": {
+      "boundaries_passed": 4,
+      "boundaries_total": 4,
+      "pass": true
+    },
+    "retired_dti_replay_rejected": {
+      "pass": true
+    },
+    "sequential_1000_rounds": {
+      "pass": true,
+      "rounds": 1000
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fixed_point": {
+    "reachable_state_count": 3,
+    "reachable_states": [
+      "S0",
+      "S1",
+      "S2"
+    ]
+  },
+  "length_seven_enumeration": {
+    "final_state_counts": {
+      "S0": 5462,
+      "S1": 5461,
+      "S2": 5461
+    },
+    "invariant_violations": 0,
+    "sequence_length": 7,
+    "total_sequences": 16384
+  }
+}

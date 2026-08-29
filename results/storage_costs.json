@@ -1,0 +1,10 @@
+{
+  "confirmed_plus_minimum_pending_bytes": 128,
+  "confirmed_plus_minimum_pending_plus_cached_bar_bytes": 160,
+  "confirmed_record_bytes": 48,
+  "device_state_bytes": 32,
+  "device_state_plus_nd_bytes": 48,
+  "minimum_pending_rederivable_bytes": 80,
+  "reference_confirmed_plus_pending_payload_bytes": 224,
+  "reference_pending_payload_bytes": 176
+}

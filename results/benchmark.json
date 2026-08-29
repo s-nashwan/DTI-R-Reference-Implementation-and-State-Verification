@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "cpu_affinity": "0",
+    "kernel": "6.18.35",
+    "machine": "x86_64",
+    "openssl": "OpenSSL 3.5.5 27 Jan 2026",
+    "os": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "pinned_logical_cpu": "0",
+    "python": "3.13.5",
+    "python_implementation": "CPython",
+    "sha256_provider": "sha256",
+    "timestamp_utc": "2026-08-29T21:55:44Z"
+  },
+  "results": {
+    "aka_tag_generation": {
+      "batches": 21,
+      "median_us": 4.2789055,
+      "q1_us": 3.8755574999999998,
+      "q3_us": 4.941865,
+      "repetitions_per_batch": 2000
+    },
+    "bar_tag_generation": {
+      "batches": 21,
+      "median_us": 4.705499,
+      "q1_us": 4.198977,
+      "q3_us": 5.040246,
+      "repetitions_per_batch": 2000
+    },
+    "complete_far_bar_aka_exchange": {
+      "batches": 21,
+      "median_us": 74.06438800000001,
+      "q1_us": 57.745868,
+      "q3_us": 84.093874,
+      "repetitions_per_batch": 500
+    },
+    "dti_generation": {
+      "batches": 21,
+      "median_us": 3.6841280000000003,
+      "q1_us": 3.1045275,
+      "q3_us": 3.992781,
+      "repetitions_per_batch": 2000
+    },
+    "far_tag_generation": {
+      "batches": 21,
+      "median_us": 2.9570540000000003,
+      "q1_us": 2.7168575,
+      "q3_us": 3.4013985,
+      "repetitions_per_batch": 2000
+    },
+    "hkdf_schedule_96_bytes": {
+      "batches": 21,
+      "median_us": 15.145514499999999,
+      "q1_us": 14.575342500000001,
+      "q3_us": 15.9299635,
+      "repetitions_per_batch": 2000
+    }
+  }
+}

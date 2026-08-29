@@ -1,0 +1,9 @@
+DTI-R state verification
+reachable_states=S0,S1,S2
+reachable_state_count=3
+sequence_length=7
+total_sequences=16384
+invariant_violations=0
+S0=5462
+S1=5461
+S2=5461
